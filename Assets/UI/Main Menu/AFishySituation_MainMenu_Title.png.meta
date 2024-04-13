@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: d3e9bbfa0cba3c941a55777b70366147
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4546624558495114541
+    second: AFishySituation_MainMenu_Title_0
+  - first:
+      213: -3779273517551852878
+    second: AFishySituation_MainMenu_Title_1
+  - first:
+      213: -5720331216241508851
+    second: AFishySituation_MainMenu_Title_2
+  - first:
+      213: -3429608625097478252
+    second: AFishySituation_MainMenu_Title_3
+  - first:
+      213: 190267185172464064
+    second: AFishySituation_MainMenu_Title_4
+  - first:
+      213: 404567013024840121
+    second: AFishySituation_MainMenu_Title_5
+  - first:
+      213: -7597465710692351823
+    second: AFishySituation_MainMenu_Title_6
+  - first:
+      213: -1605866040301992318
+    second: AFishySituation_MainMenu_Title_7
+  - first:
+      213: 6958557632751926861
+    second: AFishySituation_MainMenu_Title_8
+  - first:
+      213: 6483624026912622603
+    second: AFishySituation_MainMenu_Title_9
+  - first:
+      213: -3051130184736275705
+    second: AFishySituation_MainMenu_Title_10
+  - first:
+      213: -2891524523971101418
+    second: AFishySituation_MainMenu_Title_11
+  - first:
+      213: 8376357479361271568
+    second: AFishySituation_MainMenu_Title_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 97
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d252b2862fad81f30800000000000000
+      internalID: 4546624558495114541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 37
+        width: 114
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2e74d52c25d8bc0800000000000000
+      internalID: -3779273517551852878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 36
+        width: 32
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0eb852011d4d90b0800000000000000
+      internalID: -5720331216241508851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 37
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fe27650259760d0800000000000000
+      internalID: -3429608625097478252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_4
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 36
+        width: 82
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c14e903ff6f3a200800000000000000
+      internalID: 190267185172464064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_5
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 0
+        width: 88
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9bf2b0e8f4d9500800000000000000
+      internalID: 404567013024840121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 37
+        width: 77
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0c8f07031609690800000000000000
+      internalID: -7597465710692351823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 37
+        width: 267
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286cfe63851d6b9e0800000000000000
+      internalID: -1605866040301992318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_8
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 133
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ef2498c43c19060800000000000000
+      internalID: 6958557632751926861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_9
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 36
+        width: 106
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08805563b57af950800000000000000
+      internalID: 6483624026912622603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_10
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 132
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7038257334538a5d0800000000000000
+      internalID: -3051130184736275705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_11
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 37
+        width: 84
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d3f51f3cd3fd7d0800000000000000
+      internalID: -2891524523971101418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AFishySituation_MainMenu_Title_12
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 37
+        width: 81
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017d3056fbcce3470800000000000000
+      internalID: 8376357479361271568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AFishySituation_MainMenu_Title_0: 4546624558495114541
+      AFishySituation_MainMenu_Title_1: -3779273517551852878
+      AFishySituation_MainMenu_Title_10: -3051130184736275705
+      AFishySituation_MainMenu_Title_11: -2891524523971101418
+      AFishySituation_MainMenu_Title_12: 8376357479361271568
+      AFishySituation_MainMenu_Title_2: -5720331216241508851
+      AFishySituation_MainMenu_Title_3: -3429608625097478252
+      AFishySituation_MainMenu_Title_4: 190267185172464064
+      AFishySituation_MainMenu_Title_5: 404567013024840121
+      AFishySituation_MainMenu_Title_6: -7597465710692351823
+      AFishySituation_MainMenu_Title_7: -1605866040301992318
+      AFishySituation_MainMenu_Title_8: 6958557632751926861
+      AFishySituation_MainMenu_Title_9: 6483624026912622603
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
