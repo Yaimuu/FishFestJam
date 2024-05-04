@@ -420,7 +420,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0000009536743, y: 0.00000023841858, z: -10}
+  m_LocalPosition: {x: 0.00000047683716, y: 0.00000023841858, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1706,6 +1706,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6597507812225762169, guid: 639dd15b262150b47bf8cee0de4fe3b7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597507812225762169, guid: 639dd15b262150b47bf8cee0de4fe3b7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1719,6 +1727,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 234297292320961106, guid: e6a0d12a1c6135645ba3b58420ecacca, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 234297292320961106, guid: e6a0d12a1c6135645ba3b58420ecacca, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 441049085110743844, guid: e6a0d12a1c6135645ba3b58420ecacca, type: 3}
       propertyPath: debug
       value: 1
@@ -1734,6 +1750,14 @@ PrefabInstance:
     - target: {fileID: 441049085110743844, guid: e6a0d12a1c6135645ba3b58420ecacca, type: 3}
       propertyPath: damages
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 441049085110743844, guid: e6a0d12a1c6135645ba3b58420ecacca, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 441049085110743844, guid: e6a0d12a1c6135645ba3b58420ecacca, type: 3}
+      propertyPath: maxHealth
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 441049085110743844, guid: e6a0d12a1c6135645ba3b58420ecacca, type: 3}
       propertyPath: noiseScale
@@ -1900,7 +1924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8456480721085964491, guid: 7e5f423f325f647439352145e8265efd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0000009536743
+      value: 0.00000047683716
       objectReference: {fileID: 0}
     - target: {fileID: 8969876569945148103, guid: 7e5f423f325f647439352145e8265efd, type: 3}
       propertyPath: m_LocalScale.x

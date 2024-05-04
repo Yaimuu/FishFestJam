@@ -9,17 +9,22 @@ public class Enemy : MonoBehaviour
     public int damages;
 
     [SerializeField]
+    protected float maxHealth;
+
     protected float health;
 
     protected Rigidbody2D rb;
     protected Animator animator;
 
     protected GameObject loot;
+    [SerializeField]
+    protected FloatingHealthBar healthBar;
 
     public float Health { 
         get => health;
         set { 
             health = value;
+            
             if (health <= 0)
             {
                 Die();
@@ -28,13 +33,18 @@ public class Enemy : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    protected void Start()
     {
-        
+        health = maxHealth;
+        Debug.Log(health);
+        if (healthBar == null)
+        {
+            healthBar = GetComponentInChildren<FloatingHealthBar>();
+        }
     }
 
     // Update is called once per frame
-    void Update()
+    protected void Update()
     {
         
     }
@@ -55,6 +65,8 @@ public class Enemy : MonoBehaviour
     {
         // TODO: Feedbacks (Animation + Sound effects)
         Health -= dmg;
+
+        healthBar.UpdateHealthBar(Health, maxHealth);
     }
 
     /** Die
@@ -63,7 +75,10 @@ public class Enemy : MonoBehaviour
     protected void Die()
     {
         // TODO: Feedbacks (Animation + Sound effects)
-
+        foreach (Transform child in transform)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
         Destroy(gameObject);
         Destroy(this);
     }

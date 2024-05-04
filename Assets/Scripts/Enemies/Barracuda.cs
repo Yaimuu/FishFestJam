@@ -22,15 +22,17 @@ public class Barracuda : Enemy
     public Transform Target { get => target; set => target = value; }
 
     // Start is called before the first frame update
-    void Start()
+    protected void Start()
     {
+        base.Start();
         Born();
         GenerateRays();
     }
 
     // Update is called once per frame
-    void Update()
+    protected void Update()
     {
+        base.Update();
         Wander();
         Move();
     }
@@ -38,7 +40,7 @@ public class Barracuda : Enemy
     private void FixedUpdate()
     {
         UpdateRays();
-        SearchObstacles();
+        //SearchObstacles();
         Chase();
     }
 

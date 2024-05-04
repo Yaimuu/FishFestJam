@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Jellyfish : Enemy
 {
-    void Start()
+    protected void Start()
     {
+        base.Start();
         Born();
     }
 }
