@@ -164,7 +164,7 @@ public class Barracuda : Enemy
         if (debug)
         {
             Debug.DrawRay(transform.position, bestDir * 15, UnityEngine.Color.yellow);
-            Debug.Log(obstacleProportion);
+            // Debug.Log(obstacleProportion);
         }
 
         if (obstacleProportion <= 20)
