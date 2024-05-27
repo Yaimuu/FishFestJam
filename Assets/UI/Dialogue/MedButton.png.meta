@@ -169,7 +169,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MedButton_0: -4485775093521625150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
