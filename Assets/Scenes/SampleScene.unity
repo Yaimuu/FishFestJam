@@ -975,7 +975,7 @@ MonoBehaviour:
     name: NPC
     sentences:
     - Hello World!
-    - This is simply a test.
+    - This is a test.
     - The test is now over.
 --- !u!1001 &913313633
 PrefabInstance:
